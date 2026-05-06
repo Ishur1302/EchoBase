@@ -11,3 +11,4 @@ def stream_response(prompt):
     for event in response.get('body'):
         chunk = json.loads(event.get('chunk').get('bytes').decode())
         yield chunk.get('completion')
+Note: Streaming logic currently optimized for Claude-3 Haiku.
