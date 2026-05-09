@@ -1,0 +1,4 @@
+{
+    "default": {"aggressiveness": 1, "sample_rate": 16000},
+    "noisy_env": {"aggressiveness": 3, "sample_rate": 16000}
+}
