@@ -11,3 +11,7 @@ A high-performance toolkit for building low-latency, voice-integrated AI agents.
 ## Frontend
 - Integrated WebSocket client for low-latency audio transmission.
 - Implemented MediaRecorder API for browser-based voice capture.
+### Tech Stack Architecture
+- **Frontend**: JavaScript (MediaRecorder API, WebSockets)
+- **Backend**: Python (Asyncio, AWS Bedrock)
+- **Protocol**: Binary PCM over WS
