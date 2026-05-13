@@ -1,0 +1,3 @@
+body { background: #0d1117; color: #58a6ff; font-family: monospace; }
+.status-active { color: #238636; }
+#console { border: 1px solid #30363d; padding: 10px; height: 200px; }
