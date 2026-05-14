@@ -15,3 +15,7 @@ A high-performance toolkit for building low-latency, voice-integrated AI agents.
 - **Frontend**: JavaScript (MediaRecorder API, WebSockets)
 - **Backend**: Python (Asyncio, AWS Bedrock)
 - **Protocol**: Binary PCM over WS
+## Voice Engine Specifications
+- **Sample Rate**: 16,000 Hz (Mono)
+- **VAD**: RMS-based thresholding (500 units)
+- **Security**: Regex-based transcript sanitization
